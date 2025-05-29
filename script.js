@@ -1,0 +1,1 @@
+<button onclick="alert('Кнопка работает!')">Нажми меня</button>

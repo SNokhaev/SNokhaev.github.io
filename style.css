@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 80px;
+}
+
+h1 {
+    color: #e20699;
+}
+
+p {
+    color: #4006a5;
+}
+button {
+    background-color: #4CAF50; /* Зелёный фон */
+    color: white; /* Белый текст */
+    padding: 12px 24px; /* Отступы внутри */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Закруглённые углы */
+    font-size: 16px;
+    cursor: pointer; /* Курсор-указатель */
+    transition: background-color 0.3s; /* Плавное изменение цвета */
+}
+
+button:hover {
+    background-color: #45a049; /* Цвет при наведении */
+}
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

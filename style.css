@@ -1,36 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Georgia, Times, 'Times New Roman';
+    background-color: #080707;
     text-align: center;
     padding: 80px;
 }
-
 h1 {
     color: #e20699;
 }
-
 p {
     color: #4006a5;
 }
-button {
-    background-color: #4CAF50; /* Зелёный фон */
-    color: white; /* Белый текст */
-    padding: 12px 24px; /* Отступы внутри */
-    border: none; /* Убрать границу */
-    border-radius: 5px; /* Закруглённые углы */
-    font-size: 16px;
-    cursor: pointer; /* Курсор-указатель */
-    transition: background-color 0.3s; /* Плавное изменение цвета */
+.container {
+  text-align: center; /* Центрируем содержимое */
+  width: 700px; /* Фиксированная ширина контейнера */
+  margin: 0 auto; /* Центрирование контейнера на странице */
 }
 
-button:hover {
-    background-color: #45a049; /* Цвет при наведении */
+.image {
+  width: 100%; /* Изображение на всю ширину контейнера */
+  display: block; /* Убирает лишние отступы вокруг изображения */
+  margin-bottom: 20px; /* Отступ снизу */
 }
+
 .button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #008CBA;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
